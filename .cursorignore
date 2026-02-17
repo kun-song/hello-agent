@@ -1,0 +1,80 @@
+# Python 缓存和编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志文件
+*.log
+*.log.*
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 模型文件和大文件（常见于 AI/ML 项目）
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+models/
+checkpoints/
+weights/
+
+# 数据文件（如果很大）
+*.csv
+*.parquet
+*.feather
+data/
+datasets/
+
+# 配置文件中的敏感信息（可选）
+.env
+.env.local
+*.key
+*.pem
+
+# 构建和分发
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
